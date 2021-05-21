@@ -6,56 +6,56 @@ function Home() {
   return (
     <div className="home">
       <img
-        src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonVideo/2020/X-site/Multititle/Aug/1500x600_Hero-Tall_np._CB404803728_.jpg"
+        src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonVideo/2021/X-site/Multititle/May/M17/non-reg/1500x600_Hero-Tall_JPN._CB668432235_.jpg"
         alt=""
         className="home__image"
       />
       <div className="home__row">
         <Product
           id="12321341"
-          title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback"
-          price={11.96}
+          title="The Fault in our Stars"
+          price={251}
           rating={5}
-          image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_BO1,204,203,200_.jpg"
+          image="https://m.media-amazon.com/images/I/817tHNcyAgL._AC_UY218_.jpg"
         />
         <Product
           id="49538094"
-          title="Kenwood kMix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Litre Glass Bowl"
-          price={239.0}
+          title="Philips HR3705/10 300-Watt Hand Mixer"
+          price={2222}
           rating={4}
-          image="https://images-na.ssl-images-amazon.com/images/I/81O%2BGNdkzKL._AC_SX450_.jpg"
+          image="https://images-na.ssl-images-amazon.com/images/I/41tDUmnDITL.jpg"
         />
       </div>
       <div className="home__row">
         <Product
           id="4903850"
-          title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor"
-          price={199.99}
+          title="Mi Smart Band 5 – India’s No. 1 Fitness Band, 1.1-inch AMOLED Color Display, Magnetic Charging, 2 Weeks Battery Life, Personal Activity Intelligence (PAI), Women’s Health Tracking"
+          price={2499}
           rating={3}
-          image="https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg"
+          image="https://images-na.ssl-images-amazon.com/images/I/719ZywAmvOL._SX522_.jpg"
         />
         <Product
           id="23445930"
-          title="Amazon Echo (3rd generation) | Smart speaker with Alexa, Charcoal Fabric"
-          price={98.99}
+          title="All-new Echo Dot (4th Gen) with clock | Next generation smart speaker with improved bass, LED display and Alexa (Blue)"
+          price={5099}
           rating={5}
-          image="https://media.very.co.uk/i/very/P6LTG_SQ1_0000000071_CHARCOAL_SLf?$300x400_retinamobilex2$"
+          image="https://m.media-amazon.com/images/I/61u0y9ADElL._AC_UY218_.jpg"
         />
         <Product
           id="3254354345"
-          title="New Apple iPad Pro (12.9-inch, Wi-Fi, 128GB) - Silver (4th Generation)"
-          price={598.99}
+          title="New Apple iPhone 12 Pro Max (256GB) - Pacific Blue"
+          price={139900}
           rating={4}
-          image="https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg"
+          image="https://m.media-amazon.com/images/I/71MHTD3uL4L._AC_UL320_.jpg"
         />
       </div>
       <div className="home__row">
         <Product
           id="90829332"
-          title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5120 x 1440"
-          price={1094.98}
+          title="Asus ROG Zephyrus S Ultra Slim Gaming Laptop, 15.6 144Hz IPS Type FHD, GeForce RTX 2070, Intel Core i7-8750H, 16GB DDR4, 512GB PCIe NVMe SSD, Aura Sync RGB, Windows 10, GX531GW-AS76"
+          price={343099}
           rating={4}
-          image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
+          image="https://images-na.ssl-images-amazon.com/images/I/81rs2YCE4IL._SX679_.jpg"
         />
       </div>
     </div>

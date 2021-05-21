@@ -1,7 +1,9 @@
 import { useEffect } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
+
 import Checkout from "./components/checkoutComponent/Checkout";
+import Footer from "./components/footerComponent/Footer";
 import Header from "./components/headerComponent/Header";
 import Home from "./components/homeComponent/Home";
 import Login from "./components/loginComponent/Login";
@@ -42,6 +44,7 @@ function App() {
           <Route path="/">
             <Header />
             <Home />
+            <Footer />
           </Route>
         </Switch>
       </div>

@@ -24,7 +24,14 @@ function Header() {
         <SearchIcon className="header__searchIcon" />
       </div>
       <div className="header__nav">
-        <Link to={!user && "/login"} className="header__link">
+        <Link
+          to={!user && "/login"}
+          className="header__link"
+          style={{
+            color: "white",
+            textDecoration: "none",
+          }}
+        >
           <div onClick={login} className="header__option">
             <span className="header_optionLineOne">Hello, {user?.email}</span>
             <span className="header_optionLineTwo">
@@ -32,20 +39,44 @@ function Header() {
             </span>
           </div>
         </Link>
-        <Link to="/" className="header__link">
+        <Link
+          to="/"
+          className="header__link"
+          style={{
+            color: "white",
+            textDecoration: "none",
+          }}
+        >
           <div className="header__option">
             <span className="header_optionLineOne">Returns</span>
             <span className="header_optionLineTwo">& Orders</span>
           </div>
         </Link>
-        <Link to="/" className="header__link">
+        <Link
+          to="/"
+          className="header__link"
+          style={{
+            color: "white",
+            textDecoration: "none",
+          }}
+        >
           <div className="header__option">
             <span className="header_optionLineOne">Your</span>
             <span className="header_optionLineTwo">Prime</span>
           </div>
         </Link>
-        <Link to="/checkout" className="header__link">
-          <div className="header__optionBasket">
+        <Link
+          to="/checkout"
+          className="header__link"
+          style={{
+            color: "white",
+            textDecoration: "none",
+          }}
+        >
+          <div
+            className="header__optionBasket"
+            style={{ display: "flex", alignItems: "center" }}
+          >
             <ShoppingBasketIcon />
             <span className="header_optionLineTwo header__basketCount">
               {basket?.length}
